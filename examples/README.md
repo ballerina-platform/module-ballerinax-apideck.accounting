@@ -2,13 +2,20 @@
 
 The `ballerinax/apideck.accounting` connector provides practical examples illustrating usage in various scenarios.
 
-[//]: # (TODO: Add examples)
-1. 
-2. 
+1. [Invoice payment reconciliation](./invoice_payment_reconciliation/invoice_payment_reconciliation.md) - Issue an invoice for an existing customer, record the payment against it and read the invoice back.
+2. [Supplier bill summary](./supplier_bill_summary/supplier_bill_summary.md) - Page through all bills and total the amounts per supplier.
 
 ## Prerequisites
 
-[//]: # (TODO: Add prerequisites)
+Create a `Config.toml` in the example directory with the following values:
+
+```toml
+apiKey = "<API key>"
+appId = "<Application ID>"
+consumerId = "<Consumer ID>"
+```
+
+Each example documents any further configuration it needs.
 
 ## Running an example
 
